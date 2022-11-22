@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import cli
 
 def greet():
     """Prints welcome message on screen"""
@@ -6,6 +7,7 @@ def greet():
 
 def main():
     greet()
+    cli.welcome_user()
 
 if __name__ == '__main__':
     main()
