@@ -1,5 +1,5 @@
 def greet():
-    """Prints greetings on screen"""
+    """Prints welcome message on screen"""
     print('Welcome to the Brain Games!')
 
 def main():
