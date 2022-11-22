@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import cli
+from brain_games.cli import welcome_user
+
 
 def greet():
     """Prints welcome message on screen"""
@@ -7,7 +8,7 @@ def greet():
 
 def main():
     greet()
-    cli.welcome_user()
+    welcome_user()
 
 if __name__ == '__main__':
     main()
