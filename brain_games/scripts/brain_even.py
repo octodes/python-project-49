@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
 import random
 import prompt
-from brain_games.scripts.brain_games import greet
 
 
-# def welcome_user():
-#     """Prompts username and prints welcome message"""
-#     name = prompt.string('May I have your name? ')
-#     print(f'Hello, {name.capitalize()}!')
+def greet():
+    """Prints welcome message on screen"""
+    print('Welcome to the Brain Games!')
+
+
+def welcome_user():
+    """Prompts username and prints welcome message, returns name"""
+    name = prompt.string('May I have your name? ')
+    name = name.capitalize()
+    print(f'Hello, {name}!')
+    return name
 
 
 def even_rules_explain():
@@ -15,15 +21,8 @@ def even_rules_explain():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
-def main():
-    greet()
-
-    name = prompt.string('May I have your name? ')
-    name = name.capitalize()
-    print(f'Hello, {name}!')
-
-    even_rules_explain()
-
+def even_game(name='Friend'):
+    """Asking user is number even and counts to three correct in a row"""
     correct_counter = 0
 
     while correct_counter < 3:
@@ -72,6 +71,13 @@ def main():
 
     if correct_counter == 3:
         print(f'Congratulations, {name}')
+
+
+def main():
+    greet()
+    name = welcome_user()
+    even_rules_explain()
+    even_game(name)
 
 
 if __name__ == '__main__':
