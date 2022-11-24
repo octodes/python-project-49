@@ -43,11 +43,13 @@ def main():
 
                 print("'no' is wrong answer ;(. Correct answer was 'yes'.")
                 print(f"Let's try again, {name}!")
+                break
 
             else:
 
                 print("Wrong answer format, please type 'yes' or 'no'.")
                 print(f"Let's try again, {name}!")
+                break
 
         elif question_num % 2 != 0:
 
@@ -60,11 +62,13 @@ def main():
 
                 print("'yes' is wrong answer ;(. Correct answer was 'no'.")
                 print(f"Let's try again, {name}!")
+                break
 
             else:
 
                 print("Wrong answer format, please type 'yes' or 'no'.")
                 print(f"Let's try again, {name}!")
+                break
 
     print(f'Congratulations, {name}')
 
