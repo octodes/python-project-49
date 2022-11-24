@@ -70,7 +70,7 @@ def even_game(name='Friend'):
                 break
 
     if correct_counter == 3:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
 
 
 def main():
