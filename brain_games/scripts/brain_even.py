@@ -70,7 +70,8 @@ def main():
                 print(f"Let's try again, {name}!")
                 break
 
-    print(f'Congratulations, {name}')
+    if correct_counter == 3:
+        print(f'Congratulations, {name}')
 
 
 if __name__ == '__main__':
