@@ -39,7 +39,7 @@ def even_game(name='friend'):
                 print(f"Let's try again, {name}!")
                 break
 
-        elif question_num % 2 != 0:
+        else:
 
             if answer == 'no':
 
