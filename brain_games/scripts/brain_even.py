@@ -21,7 +21,7 @@ def even_rules_explain():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
-def even_game(name='Friend'):
+def even_game(name='friend'):
     """Asking user is number even and counts to three correct in a row"""
     correct_counter = 0
 
