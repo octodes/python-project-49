@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import random
-from brain_res import *
+import prompt
+from .brain_res import greet
+from .brain_res import welcome_user
 
 
 def even_rules_explain():
