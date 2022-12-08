@@ -27,7 +27,7 @@ def play(game):
             print('Correct!')
             current_round += 1
         else:
-            print(f"""{answer} is wrong answer ;(.
+            print(f"""{answer} is wrong answer ;(. 
             Correct answer was {correct_answer}.
             Let's try again, {name}!
             """)
