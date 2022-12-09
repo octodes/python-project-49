@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Brain progression game script."""
+"""Progression game runner script."""
 
 
 from brain_games import brain_engine

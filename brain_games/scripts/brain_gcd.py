@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Brain gcd game script."""
+"""Greater common divisor script."""
 
 
 from brain_games import brain_engine

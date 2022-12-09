@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Brain prime game script."""
+"""Prime number identifier game."""
 
 
 from brain_games import brain_engine
